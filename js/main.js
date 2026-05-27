@@ -77,6 +77,27 @@
 
 
   // ----------------------------------------------------------
+  // Google Ads — conversão WhatsApp
+  // Substitua CONVERSION_LABEL pelo rótulo gerado no Google Ads
+  // (Ferramentas > Conversões > selecione a conversão > "tag de evento")
+  // ----------------------------------------------------------
+  function gtag_report_conversion() {
+    if (typeof gtag === 'function') {
+      gtag('event', 'conversion', {
+        'send_to': 'AW-17988378844/CONVERSION_LABEL'
+      });
+    }
+    return true;
+  }
+
+  document.querySelectorAll('a[href*="api.whatsapp.com"]').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      gtag_report_conversion();
+    });
+  });
+
+
+  // ----------------------------------------------------------
   // Intersection Observer: fade-in on scroll
   // ----------------------------------------------------------
   var fadeEls = document.querySelectorAll('.fade-in');
