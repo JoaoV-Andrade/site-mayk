@@ -1,0 +1,15 @@
+{
+  "name": "Mayk Barbearia",
+  "short_name": "Mayk",
+  "description": "Barbearia no Sudoeste de Brasília — corte masculino e barba.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B0B0C",
+  "theme_color": "#0B0B0C",
+  "lang": "pt-BR",
+  "icons": [
+    { "src": "images/favicon-48.png", "sizes": "48x48", "type": "image/png" },
+    { "src": "images/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "images/favicon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
