@@ -1,6 +1,6 @@
 # Mayk Barbearia
 
-> Barbearia no Sudoeste de Brasília (DF) especializada em corte de cabelo masculino, barba com navalha e toalha quente, tratamentos capilares e visagismo. Agendamento pelo WhatsApp.
+> Barbearia no Sudoeste de Brasília (DF) especializada em corte de cabelo masculino, barba com navalha e toalha quente, tratamentos capilares e visagismo. Agendamento pelo aplicativo Mayk Barbearia ou pelo WhatsApp.
 
 ## Informações principais
 
@@ -9,7 +9,8 @@
 - Endereço: CLSW 102, Edifício Saint James, loja 46 — Sudoeste, Brasília - DF, Brasil
 - Telefone e WhatsApp: (61) 99689-5936 (+55 61 99689-5936)
 - Horário: segunda a sábado, das 9h às 20h (fechado aos domingos)
-- Agendamento: pelo WhatsApp — https://api.whatsapp.com/send/?phone=5561996895936
+- Agendamento: pelo aplicativo Mayk Barbearia (iPhone: https://apps.apple.com/br/app/mayk-barbearia/id1601548260 · Android: https://play.google.com/store/apps/details?id=com.mmtools.mayk) ou pelo WhatsApp — https://api.whatsapp.com/send/?phone=5561996895936
+- Avaliação no Google: 5,0 estrelas (568 avaliações)
 - Instagram: https://www.instagram.com/maykbarbearia (@maykbarbearia)
 - Google Maps: https://www.google.com/maps/place/?q=place_id:ChIJp-j3PII7WpMRA4y32RpiimU
 - Site: https://maykbarbearia.com.br/
