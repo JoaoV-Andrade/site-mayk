@@ -205,31 +205,4 @@
   }
 
 
-  // ----------------------------------------------------------
-  // Abas das unidades (Sudoeste / Unique)
-  // ----------------------------------------------------------
-  var tabs = document.querySelectorAll('.unidades__tab');
-
-  function selectTab(tab) {
-    tabs.forEach(function (t) {
-      var active = t === tab;
-      t.classList.toggle('is-active', active);
-      t.setAttribute('aria-selected', String(active));
-      t.tabIndex = active ? 0 : -1;
-      var panel = document.getElementById(t.getAttribute('aria-controls'));
-      if (panel) panel.hidden = !active;
-    });
-  }
-
-  tabs.forEach(function (tab, i) {
-    tab.addEventListener('click', function () { selectTab(tab); });
-    tab.addEventListener('keydown', function (e) {
-      if (e.key !== 'ArrowRight' && e.key !== 'ArrowLeft') return;
-      var next = tabs[(i + (e.key === 'ArrowRight' ? 1 : tabs.length - 1)) % tabs.length];
-      selectTab(next);
-      next.focus();
-    });
-  });
-
-
 }());

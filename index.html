@@ -37,7 +37,7 @@ function gtag_report_conversion(url) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mayk Barbearia | Barbearia no Sudoeste Brasília – Corte e Barba</title>
 
-  <meta name="description" content="Mayk Barbearia no Sudoeste de Brasília: corte masculino, barba com navalha e toalha quente, tratamentos capilares e visagismo. CLSW 102, Ed. Saint James, loja 46. Seg a Sáb, 9h às 20h. Agende pelo WhatsApp!">
+  <meta name="description" content="Mayk Barbearia no Sudoeste de Brasília: corte masculino, barba com navalha e toalha quente, tratamentos capilares e visagismo. CLSW 102, Ed. Saint James, loja 46. Seg a Sex, 9h às 19h. Agende pelo WhatsApp!">
   <meta name="keywords" content="barbearia sudoeste, barbearia brasilia, barbearia no sudoeste brasilia, corte masculino brasilia, barba brasilia, mayk barbearia, barbearia sudoeste brasilia, cabeleireiro masculino brasilia, visagismo brasilia, barbearia octogonal, barbearia perto de mim">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
   <meta name="author" content="Mayk Barbearia">
@@ -144,9 +144,9 @@ function gtag_report_conversion(url) {
         "openingHoursSpecification": [
           {
             "@type": "OpeningHoursSpecification",
-            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
             "opens": "09:00",
-            "closes": "20:00"
+            "closes": "19:00"
           }
         ],
         "areaServed": [
@@ -189,7 +189,7 @@ function gtag_report_conversion(url) {
           {
             "@type": "Question",
             "name": "Qual o horário de funcionamento da Mayk Barbearia?",
-            "acceptedAnswer": { "@type": "Answer", "text": "A Mayk Barbearia funciona de segunda a sábado, das 9h às 20h." }
+            "acceptedAnswer": { "@type": "Answer", "text": "A unidade Sudoeste funciona de segunda a sexta, das 9h às 19h. A Mayk Concept funciona de segunda a sexta, das 8h às 20h, e aos sábados, das 8h às 17h." }
           },
           {
             "@type": "Question",
@@ -267,12 +267,8 @@ function gtag_report_conversion(url) {
     <div class="hero__overlay" aria-hidden="true"></div>
 
     <div class="container hero__inner">
+      <h1 class="visually-hidden">Mayk Barbearia · Barbearia no Sudoeste, Brasília</h1>
       <img src="images/logo-m.webp" alt="Logo da Mayk Barbearia" class="hero__logo fade-in" width="188" height="185">
-
-      <h1 class="hero__title fade-in">
-        <span class="hero__brand">Mayk Barbearia · Sudoeste, Brasília</span>
-        Sua imagem <em>chega primeiro.</em>
-      </h1>
 
       <p class="hero__subtitle fade-in">Aqui o atendimento é pessoal: entendemos quem você é, sua rotina e o que a sua imagem precisa comunicar. Um cuidado feito sob medida, para que sua presença seja forte onde quer que esteja.</p>
 
@@ -283,12 +279,6 @@ function gtag_report_conversion(url) {
         </a>
         <a href="https://api.whatsapp.com/send/?phone=5561996895936&amp;text=Ol%C3%A1%21+Gostaria+de+fazer+um+agendamento+na+Mayk+Barbearia.&amp;type=phone_number&amp;app_absent=0" rel="noopener noreferrer" class="btn btn--secondary btn--lg" onclick="return gtag_report_conversion(this.href);">Agendar no WhatsApp</a>
       </div>
-
-      <ul class="hero__facts fade-in">
-        <li><span>Endereço</span>CLSW 102 · Ed. Saint James</li>
-        <li><span>Horário</span>Seg a Sáb · 9h às 20h</li>
-        <li><span>Google</span><b aria-hidden="true">★★★★★</b> 5,0 · 568 avaliações</li>
-      </ul>
     </div>
 
     <div class="hero__scroll-hint" aria-hidden="true"><span></span></div>
@@ -412,17 +402,16 @@ function gtag_report_conversion(url) {
       <div class="section__header fade-in">
         <span class="section__tag">Nossas unidades</span>
         <h2 class="section__title">Um ambiente feito para <em>você</em>.</h2>
-        <p class="section__subtitle">Climatizado, moderno e todo equipado. Conheça os espaços da Mayk Barbearia no Sudoeste de Brasília.</p>
+        <p class="section__subtitle">Climatizado, moderno e todo equipado. Conheça as nossas unidades: Mayk Barbearia Sudoeste e Mayk Concept.</p>
       </div>
 
       <div class="unidades fade-in">
-        <div class="unidades__tabs" role="tablist" aria-label="Unidades da Mayk Barbearia">
-          <button class="unidades__tab is-active" role="tab" id="tab-sudoeste" aria-selected="true" aria-controls="painel-sudoeste">Unidade Sudoeste</button>
-          <button class="unidades__tab" role="tab" id="tab-unique" aria-selected="false" aria-controls="painel-unique" tabindex="-1">Unidade Unique <span class="unidades__badge">Em breve</span></button>
-        </div>
-
         <!-- UNIDADE SUDOESTE -->
-        <div class="unidades__panel" role="tabpanel" id="painel-sudoeste" aria-labelledby="tab-sudoeste">
+        <div class="unidades__panel" id="unidade-sudoeste">
+          <div class="unidades__head">
+            <h3 class="unidades__name">Mayk Barbearia <em>Sudoeste</em></h3>
+            <p class="unidades__meta">CLSW 102 · Ed. Saint James, loja 46 · Seg a Sex · 9h às 19h</p>
+          </div>
           <div class="carousel carousel--photos" data-carousel data-autoplay="4500">
             <div class="carousel__track" data-track>
 
@@ -464,14 +453,17 @@ function gtag_report_conversion(url) {
           </div>
         </div>
 
-        <!-- UNIDADE UNIQUE
+        <!-- MAYK CONCEPT (Unique)
              Quando as fotos ficarem prontas: troque o bloco .unidades__soon por um
              carrossel igual ao da Unidade Sudoeste (copie o <div class="carousel ..."> acima). -->
-        <div class="unidades__panel" role="tabpanel" id="painel-unique" aria-labelledby="tab-unique" hidden>
+        <div class="unidades__panel" id="unidade-concept">
+          <div class="unidades__head">
+            <h3 class="unidades__name">Mayk <em>Concept</em> <span class="unidades__badge">Em breve</span></h3>
+            <p class="unidades__meta">Seg a Sex · 8h às 20h · Sáb · 8h às 17h</p>
+          </div>
           <div class="unidades__soon">
             <img src="images/logo-m.webp" alt="" width="188" height="185" loading="lazy">
             <span class="section__tag">Nova unidade</span>
-            <h3>Mayk Barbearia <em>Unique</em></h3>
             <p>Uma nova unidade com o mesmo padrão de atendimento personalizado. As fotos do espaço chegam em breve. Acompanhe as novidades no nosso Instagram.</p>
             <a href="https://www.instagram.com/maykbarbearia" target="_blank" rel="noopener noreferrer" class="btn btn--secondary">Acompanhar no Instagram</a>
           </div>
@@ -547,7 +539,7 @@ function gtag_report_conversion(url) {
             </div>
             <div>
               <strong>Horário de funcionamento</strong>
-              <p>Segunda a Sábado<br>09h às 20h</p>
+              <p>Segunda a Sexta<br>09h às 19h</p>
             </div>
           </div>
 
@@ -629,8 +621,7 @@ function gtag_report_conversion(url) {
 
       <div class="section__header fade-in">
         <span class="section__tag">Nossos serviços</span>
-        <h2 class="section__title">Do corte clássico ao <em>acabamento</em> perfeito.</h2>
-        <p class="section__subtitle">Tudo o que você precisa para uma experiência completa na barbearia do Sudoeste, Brasília.</p>
+        <p class="section__subtitle">Tudo o que você precisa para uma experiência única e personalizada.</p>
       </div>
 
       <div class="servicos__grid">
@@ -686,7 +677,7 @@ function gtag_report_conversion(url) {
 
         <details class="faq__item">
           <summary class="faq__question">Qual o horário de funcionamento da Mayk Barbearia?</summary>
-          <p class="faq__answer">A Mayk Barbearia funciona de segunda a sábado, das 9h às 20h.</p>
+          <p class="faq__answer">A unidade Sudoeste funciona de segunda a sexta, das 9h às 19h. A Mayk Concept funciona de segunda a sexta, das 8h às 20h, e aos sábados, das 8h às 17h.</p>
         </details>
 
         <details class="faq__item">
@@ -766,7 +757,8 @@ function gtag_report_conversion(url) {
           <strong>Contato</strong>
           <p>Sudoeste 102, Edifício Saint James<br>Loja 46 — Brasília, DF</p>
           <a href="tel:+5561996895936">(61) 99689-5936</a>
-          <p>Seg a Sáb · 9h às 20h</p>
+          <p>Sudoeste: Seg a Sex · 9h às 19h</p>
+          <p>Mayk Concept: Seg a Sex · 8h às 20h<br>Sáb · 8h às 17h</p>
         </div>
 
         <div class="footer__social">
